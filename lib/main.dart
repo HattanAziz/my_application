@@ -22,21 +22,33 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(height: 20),
               Text(
-                  'hattan Aziz',
+                  'Hattan Aziz',
                 style: TextStyle(
+
                   fontSize: 24,
                   color: Colors.white,
                 ),
               ),
+              SizedBox(height: 10,),
+
+              Text('Softwaer Engenering',
+              style: TextStyle(
+
+                fontSize: 24,
+                fontWeight: FontWeight.bold
+                ,
+                color: Colors.white,
+              ),),
+              SizedBox(height: 10,),
 
               Text('---------------------------------------------------------------------------------------------------------------------------------------',
               style: TextStyle(
                 fontSize: 10,
                 color: Colors.white,
-              )),
+              ),),
 
               Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: EdgeInsets.all(16.0),
                 child: TextFormField(
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
